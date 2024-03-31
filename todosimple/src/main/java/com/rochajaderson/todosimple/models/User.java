@@ -60,6 +60,16 @@ public class User {
         this.password = password;
     }
 
+
+    public List<Task> getTasks() {
+        return this.tasks;
+    }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
+    
+
     public Long getId() {
         return this.id;
     }
